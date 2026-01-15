@@ -1,0 +1,94 @@
+@tailwind base;
+
+@layer base {
+    .no-tailwindcss-base,
+    .no-tailwindcss-base *,
+    .no-tailwindcss-base > * {
+        font-size: revert;
+        font-weight: revert;
+        display: revert;
+        vertical-align: revert;
+        max-width: revert;
+        height: revert;
+        border-width: revert;
+        border-style: revert;
+        border-color: revert;
+        outline: revert;
+        list-style: revert;
+        padding: revert;
+    }
+
+    .no-tailwindcss-base ul {
+        list-style: disc !important;
+        list-style-position: inside !important;
+    }
+
+    .no-tailwindcss-base ol {
+        list-style: decimal !important;
+        list-style-position: inside !important;
+    }
+}
+
+/* .no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+} */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+.note-editable ul {
+    list-style: disc !important;
+    list-style-position: inside !important;
+}
+
+.note-editable ol {
+    list-style: decimal !important;
+    list-style-position: inside !important;
+}
+
+.note-editor {
+    width: 100% !important; /* Adjust width as needed */
+}
+/* 
+.note-editable {
+    max-height: 120px !important;
+    overflow: auto !important; 
+    white-space: pre-wrap;
+} */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
