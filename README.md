@@ -1,4 +1,4 @@
-# Web-Based Employment Platform for PESO with Predictive Analytics
+# Web-Based Employment Platform (Academic Project)
 > **A  web-based employment platform designed to provide scalable
 and centralized platforn for PESO Offices to aid in managing
 applicant and employer data. It included employer job posting,
